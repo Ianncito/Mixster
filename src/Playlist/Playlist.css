@@ -1,0 +1,62 @@
+.playlistContainer {
+    background-color: rgba(37, 10, 70, 0.34);
+    width: 30%;
+    margin: 40px 15px;
+    height: auto;
+    border-radius: 7px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#playlistname {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: rgb(255, 255, 255);
+    margin-top: 25px;
+    width: 90%;
+    height: 35px;
+    font-size: 1.5rem;
+}
+
+.playlistnamediv {
+    width: 100%;
+    margin-left: 40px;
+
+}
+
+div.track {
+    margin: 10px 20px;
+}
+
+.playListNameBar {
+    width: 91%;
+    height: 1px;
+    background-color: rgba(99, 98, 98, 0.745);
+    border: none;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.import {
+    border: none;
+    border-radius: 15px;
+    margin: 35px;
+    color: white;
+    background-color: rgb(101, 55, 229);
+    width: 150px;
+    padding: 8px;
+}
+
+.import:hover {
+    cursor: pointer;
+    background-color: rgb(91, 39, 234);
+}
+
+@media screen and (max-width: 690px) {
+    .playlistContainer {
+        width: 300px;
+    }
+}

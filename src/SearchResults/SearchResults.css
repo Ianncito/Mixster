@@ -1,0 +1,15 @@
+.resultTitle {
+    font-size: 1.8rem;
+    margin: 20px;
+    font-family: 'Poppings', sans-serif;
+}
+
+.resultsContainer {
+    font-size: 1.8rem;
+    margin: 20px;
+    background-color: rgba(37, 10, 70, 0.34);
+    width: 50%;
+    margin: 40px 15px;
+    height: auto;
+    border-radius: 7px;
+}

@@ -1,0 +1,36 @@
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.searchbar {
+    border: none;
+    color: rgba(0, 0, 0, 0.842);
+    margin-top: 160px;
+    padding-left: 1%;
+    width: 290px;
+    height: 35px;
+    border-radius: 15px;
+}
+
+.searchbtn {
+    border: none;
+    border-radius: 15px;
+    margin-top: 35px;
+    color: white;
+    background-color: rgb(37, 10, 70);
+    width: 150px;
+    padding: 5px;
+}
+
+.searchContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.searchbtn:hover {
+    cursor: pointer;
+    background-color: blueviolet;
+}
