@@ -1,6 +1,21 @@
 <h1>Getting Started with Create React App</h1>
 This project was bootstrapped with Create React App.
 
+<h2>Using npm install</h2>
+When working with a web application built with React that you've downloaded from GitHub, you may need to use the npm install command. This command is used to install the project's dependencies, including the dependencies required for React.
+
+<h4>To get started, follow these steps:</h4>
+
+1. Make sure you have Node.js installed on your machine. Node.js comes with npm (Node Package Manager) by default.
+
+2. Open a terminal or command prompt and navigate to the root directory of the downloaded project.
+
+3. Run the following command:
+`npm install` 
+This will read the package.json file in the project, which lists all the dependencies needed for the project to run. npm install will then download and install those dependencies in a directory called node_modules.
+
+4. Once the installation is complete, you should see the node_modules directory in your project's root directory.
+
 <h2>Available Scripts</h2>
 <h3>In the project directory, you can run:</h3>
 
